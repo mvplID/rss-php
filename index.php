@@ -7,7 +7,7 @@ if (!ini_get('date.timezone')) {
 
 require_once 'src/Feed.php';
 
-$rss = Feed::loadRss('https://phpfashion.com/feed/rss');
+$rss = Feed::loadRss('https://rarbg.to/rssdd_magnet.php?category=44;45;54');
 
 ?>
 
